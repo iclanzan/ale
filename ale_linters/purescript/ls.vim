@@ -46,4 +46,5 @@ call ale#linter#Define('purescript', {
 \   'command': function('ale_linters#purescript#ls#GetCommand'),
 \   'project_root': function('ale_linters#purescript#ls#FindProjectRoot'),
 \   'lsp_config': {b -> ale#Var(b, 'purescript_ls_config')},
+\   'language': 'purescript',
 \})
